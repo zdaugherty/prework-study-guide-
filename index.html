@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
      
@@ -25,18 +26,41 @@
         <li>The head element contains information about the webpage.</li>
 
         <li>The body element represents the visible content shown to the user.</li>
+
+        <li>h1: Tag represents the heading.</li>
          
         <li><!DOCTYPE/li> This tag defines the document type and HTML version.
 
         <li>head:This tag represents the document's header which can keep other HTML tags like title,link etc.</li>
 
-        <li>tile:the title tag is used indside the head tag to mention the document title</li>
+        <li>title:the title tag is used indside the head tag to mention the document title</li>
 
         <li>Body:This tag represents the document's body which keeps other HTML tags
           like h1,div, p etc.</li>
 
-          <li>h1: Tag represents the heading.</li>
+        <li>class: HTML elements can have one or more classes, separated by spaces. You can style elements using CSS by selecting them with their classes.</li>
+
+        <li>id:An HTML element can have an id attribute to identify it. id elements should always be unique to that single element, and each element should never have more than one id.</li> 
+
+        <li>href:Links tell the browser where to go using an href attribute, which stores a URL.</li>
+
+        <li>Basic Formatting:You can easily format text to be bold, italic, or underlined using simple formatting tags.</li>
+
+        <li>Comments:HTML comments are sometimes used in code to explain parts of the markup. They are similar to comments in other languages. Users do not see comments in their browser.</li>
      
+        <li>Div:A block level container (or ‘division’ of the web page) for content with no semantic meaning.</li>
+
+        <li>Horizontal rules:This tag creates a black line one pixel thick that runs the all the way across its container. It can be styled to look differently with CSS.</li>
+
+        <li>Lists:HTML supports two kinds of lists: ordered lists and unordered lists. Within lists each individual list item has its own tag.</li>
+
+        <li>Unordered Lists:Unordered lists are just lists whose items are denoted with bullet points.</li>
+
+        <li>Ordered Lists:Ordered lists’ items are denoted with numbers.</li>
+
+        <li>Tables:An element for displaying information in rows and columns. Supports headers and footers for labeling columns. Divides information into rows (denoted by the tr tag) which contain cells (denoted by the td tag).
+        </li>
+         
         </ul> 
         
         </section>
@@ -57,7 +81,32 @@
 
            <li>Linked(external)- The style is in one .css file that is linked to multiple web pages. The link tag on the page is connected to the external file.</li>
 
+           <li>Properties: Properties are defined within selectors by defining a property and a value. They are separated with a colon and delineated with a semi-colon.</li>
 
+           <li>Padding: The padding is the spacing between the content and the border (edge of the element.).</li>
+
+           <li>Margin: The margin is the space around the element. </li> 
+
+           <li>font-family: The font-family property sets the font of an HTML element’s text.</li>
+
+           <li>Selectors: Selectors are used in CSS to select the parts of the HTML that are being styled.</li>
+
+           <li>Class name selectors: You can also select HTML elements by their Class name. Unlike ID selectors, Class selectors select all elements with a matching class.</li>
+
+           <li>Element selectors: You are able to select HTML elements first by simply using the name of the element.</li>
+
+           <li>ID selectors: ID selectors are used to select only a single item on a page. Like the term (“identification”) indicates, ID selectors will ONLY select the first element with a matching ID.</li>
+
+           <li>Attribute selectors: HTML elements are also able to be selected by their attributes.</li>
+
+           <li>Child selectors:You can also use multiple selectors to get the exact elements you want, by using parental nesting. By using the “greater-than” symbol (>), you can select only the direct children of an element, going down only one level.
+          </li>
+
+          <li>Universal selector:The universal selector (*) may be used to select all the elements in a particular range.</li>
+
+          <li>Pseudo class selectors:Pseudo Selectors can be used to narrow down a selection with certain rules. </li>
+
+        
         </ul> 
 
         </section>
@@ -68,9 +117,9 @@
 
          <ul> 
 
-          <li>git status: checks what branch we are currently on.</li>
+          <li>git status: Checks what branch we are currently on.</li>
 
-          <li>git checkout -b branch-name: creates a new branch and switches to it.</li> 
+          <li>git checkout: -b branch-name: creates a new branch and switches to it.</li> 
 
           <li>git add: To add a file as it looks now to your next commit </li>
 
@@ -78,33 +127,99 @@
 
           <li>git diff: Diff of what is changed but not staged</li>
 
-          <li>git commit:Commit your staged content as a new commit snapshot</li>
+          <li>git commit: Commit your staged content as a new commit snapshot</li>
 
-          <li>git branch:list your branches and will appear next to the currently active branch.</li>
+          <li>git branch: list your branches and will appear next to the currently active branch.</li>
 
-          <li>git merge:merge the specified branch’s history into the current one</li>
+          <li>git merge: Merge the specified branch's history into the current one.</li>
+
+          <li>git merge name-of-branch: Will merge the specified branch into the branch you are currently on.</li>
+
+          <li>git branch -d name-of-branch-to-delete: Deletes the specified branch. </li>
+
+          <li>history: Will show you your past git commands.</li> 
+
+          <li>git stash: Stashes any unstaged changes in your repository. </li>
+
+          <li>git stash pop: Gives you back the last staged changes you stashed</li>
+
+          <li>git clean -n: Test-Delete untracked files.</li>
+
+          <li>git clean -f: Delete untracked files.</li>
+
+          <li>git reset HEAD index.html: Unstage (undo adds)</li>
+
+          <li>git commit --amend -m "New Message": Update most recent commit (also update the commit message) </li>
+
+          <li>git merge branchname:True merge (fast forward).</li>
+
+          <li>git merge --ff-only branchname:Merge to master (only if fast forward)</li>
+
+          <li>git merge --no-ff branchname:Merge to master (force a new commit)</li>
 
          </ul>   
 
        </section>  
 
-       <section class="javascript-section">
+       <section class="card" id="javascript-section">
 
-       <h2>JavaScript</h2> 
+        <h2>JavaScript</h2> 
 
       <ul>  
 
-      <li></li> 
+      <li>Variable: Is a container which has a name.</li> 
 
-      <li></li>
+      <li>Loop: Can execute a block of code a number of times.</li>
+
+      <li>Numeric: Any numeric value, whether a whole number (an integer) or a number that includes a fractional part. </li>
+
+      <li>String: A group of text characters.</li>
+
+      <li>Boolean: A value which can only be either True or False</li>
+
+      <li>•	When a new variable is created (or declared) its name must be preceded by the word var.</li>
+
+      <li>Operators: Is a type of command. They perform operations on variables and/or literals and produce a result.</li> 
+
+      <li>Operators command: + =	becomes equal to itself plus.</li>
+
+      <li>Operators command: - =	becomes equal to itself minus.</li>
+
+      <li>Operators command: * =	becomes equal to itself multiplied by.</li>
+
+      <li>Operators command: / =	becomes equal to itself divided by.</li>
+
+      <li>Operators command: % =	becomes equal to the amount which is left when it is divided by.</li>
+
+      <li>Properties:	A variable (numeric, string or Boolean) associated with an object. Most properties can be changed by the user.
+      </li>
+
+      <li>Methods: Functions associated with an object. Can be called by the user.</li>
+
+      <li>Events: Notification that a particular event has occurred. Can be used by the programmer to trigger responses.</li>
+
+      <li>Status:The contents of the status bar (at the bottom of the browser window.</li>
+
+      <li>Location:The location and URL of the document currently loaded into the window (as displayed in the location bar).Example:	alert(window.location);
+      </li>
+
+      <li>Top:The top-level window, of which all other windows are sub-windows. Example:var topWindow = window.top;
+        alert(topWindow.length);
+        </li>
+      <li>Length:The number of frames (if any) into which the current window is divided. Example: alert(window.length);</li> 
+
+      <li>Parent:The parent window, if the current window is a sub-window in a frameset. Example: var parentWindow = window.parent;
+        alert(parentWindow.length);</li>
 
       </ul> 
-    </section>  
+
+     </section>  
 
 
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
