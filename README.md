@@ -36,11 +36,8 @@ In java to declare a variable you use the var keyword and after you use the keyw
 n/a
 
 ## Usage 
- The user of the prework study guide can review notes from the following sections, Html,CSS,GIT, and Java Script. 
- The HTML section of this study gudie you will learn that HTML is the universal markup language for the Web.  It can be assisted by technologies such as CSS. CSS stands for stands for Cascading style sheets, which  is the language we use to style an HTML document. 
- Then we move to the JavaScript section of the study guide. In the JavaScript section we cover the topic loops. loops can execute a block of code a number of times. Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false . And the final section we will cover is Git. In the git section we will cover the command git status. Git status Checks what branch we are currently on. which is very crucial when doing PR and merging a repo.
- 
-
+ To use this prework study guide you can review each section. For suggestions on what to study first open chrome DevTools by pressing
+ command+option+I (MacOS) or contol+shift+I (windows). A consle panel will appear ethier below our ot the side of the webpage browser. and thats where you will find a list of topics that this study guide covers. You will aslo have suggestion on what to study first.
 
 
 ![alt text](assets/images/screenshot.png)
